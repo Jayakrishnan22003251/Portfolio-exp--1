@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <style>
+       
+
+        /* Prevent horizontal scrollbar */
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #673f7c; /* Dark Blue */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        table {
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        table td {
+            padding: 15px;
+        }
+
+        img {
+            max-width: 100%; /* Ensure images do not overflow */
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+           
+       }
+
+
+        /* Style for the first table */
+        
+
+        .first-table td {
+            padding: 15px;
+            text-align: center;
+            color: #161e1d; /* Teal text color */
+            border: none; /* Remove borders inside cells */
+        }
+
+        /* Styling for the skills-table */
+        .skills-table {
+            width: 40%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .skills-table td {
+            font-weight: bold;
+            color: white;
+            background-color: #72519d; /* Blue */
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            border: 2px solid #81528b; /* Darker border */
+        }
+
+        .skills-table td:hover {
+            background-color: #8b5c89; /* Dark Blue on hover */
+        }
+
+        /* Styling for the info-table */
+        .info-table {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #f4f4f4;
+        }
+
+        .info-table td {
+            padding: 15px;
+            font-size: 1.1em;
+            vertical-align: top;
+        }
+
+        .info-label {
+            font-weight: bold;
+            background-color: #413f4d; /* Dark Blue */
+            
+            color: white;
+            text-align: right;
+            padding-right: 15px;
+        }
+
+        .info-data {
+            text-align: left;
+            color: #333;
+        }
+
+        .info-data a {
+            color: #1a237e; /* Link color */
+            text-decoration: none;
+        }
+
+        .info-data a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+
+        footer {
+            background-color: #673f7c;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer a {
+            color: #ffeb3b;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <header>
+        <h1>My Template</h1>
+    </header>
+
+    <table class="first-table">
+        <tbody>
+            <tr>
+                <td>
+                    <img src="images/jai1.jpg" width="30%">
+                </td>
+                <td align="right">
+                    <strong>L B L JAYAKRISHNAN</strong><br>
+                    <strong>Pursuing B.Tech (Artificial Intelligence and Data Science)</strong>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <!-- Minimized Skills Table -->
+    <table class="skills-table">
+        <tbody>
+            <tr>
+                <td>
+                   ABOUT MY SKILLS
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <table>
+        <tr>
+            <td>
+                <img src="images/ds.jpg" alt="Left Image"><br>
+                <strong>Programming Skills</strong>
+            </td>
+            <td align="center">
+                <img src="images/ds2.jpg" alt="Center Image"><br>
+                <strong>Problem Solving skills</strong>
+            </td>
+            <td align="right">
+                <img src="images/ds3.jpg" alt="Right Image"><br>
+                <strong>Machine Learning</strong>
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <table>
+        <tr>
+            <td>
+                <img src="images/ds4.jpg" alt="Left Image"><br>
+                <strong>Data Manipulation and Analysis</strong>
+            </td>
+            <td align="center">
+                <img src="images/ds5.jpg" alt="Center Image"><br>
+                <strong>Data Visualization</strong>
+            </td>
+            <td align="right">
+                <img src="images/ds7.jpg" alt="Right Image"><br>
+                <strong>Statistics and Mathematics</strong>
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+    <table>
+        <tr>
+            <td>
+                <img src="images/ds8.jpg" alt="Left Image"><br>
+                <strong>Database Management</strong>
+            </td>
+            <td align="center">
+                <img src="images/ds9.jpg" alt="Center Image"><br>
+                <strong>Data Security</strong>
+            </td>
+            <td align="right">
+                <img src="images/ds10.jpg" alt="Right Image"><br>
+                <strong>Big Data Tools</strong>
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!-- About Me Table -->
+    <table class="info-table" align="center">
+        <tbody>
+            <tr>
+                <td class="info-label">Name:</td>
+                <td class="info-data">L B L Jayakrishnan</td>
+            </tr>
+            <tr>
+                <td class="info-label">Degree:</td>
+                <td class="info-data">B.Tech in Artificial Intelligence and Data Science</td>
+            </tr>
+            <tr>
+                <td class="info-label">University:</td>
+                <td class="info-data">Saveetha Engineering College <br>Anna University</td>
+            </tr>
+            <tr>
+                <td class="info-label">Email:</td>
+                <td class="info-data"><a href="lbljai004@gmail.com">mail-id</a></td>
+            </tr>
+            <tr>
+                <td class="info-label">Phone:</td>
+                <td class="info-data">+91-6383557669</td>
+            </tr>
+            <tr>
+                <td class="info-label">LinkedIn:</td>
+                <td class="info-data"><a href="https://www.linkedin.com/in/jayakrishnan-l-b-l-217b27266/" target="_blank">LinkedIn Profile</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <footer>
+        <p>&copy; All rights reserved.</p>
+        <p>Contact us at <a href="https://github.com/Jayakrishnan22003251" target="_blank">Github Link</a></p>
+    </footer>
+</body>
+</html>
